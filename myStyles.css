@@ -1,14 +1,25 @@
-h1 {color: orange; font-size: 100px}
-h2 {color: tan; font-size: 36px}
+h1 {color: darkorange; font-size: 100px; text-align: center}
+h2 {color: tan; font-size: 36px; text-align: center}
 h1 h2 Body {font-family: "Comic Sans MS", "Comic Sans", helvetica}
 
+#demo {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url("https://www.suggestedpost.eu/wp-content/uploads/2017/08/shiba-inu-photos1.jpg"); *
+}
 
 body{
   /* text */
   font-family: "Comic Sans MS", "Comic Sans", Helvetica;
+  text-align: justify;
+  padding: 50px 0;
   font-size: 18px;
   font-style: none;
   font-weight: normal;
+  color: black;
 
   /* canvas */
   background-color: lightgray;
@@ -21,4 +32,12 @@ body{
   padding:10% 20% 300px 40%;
 }
 
-/
+/* <style>
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+</style>
