@@ -1,0 +1,24 @@
+h1 {color: orange; font-size: 100px}
+h2 {color: tan; font-size: 36px}
+h1 h2 Body {font-family: "Comic Sans MS", "Comic Sans", helvetica}
+
+
+body{
+  /* text */
+  font-family: "Comic Sans MS", "Comic Sans", Helvetica;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+
+  /* canvas */
+  background-color: lightgray;
+  background-image: url("https://i.pinimg.com/736x/6c/b1/bd/6cb1bdd167a426f7200ac5ee26f5b146--cartoons-comics.jpg"); *
+
+  /* spacing */
+  margin: 100;
+  border-top: 5;
+  border-left: 3
+  padding:10% 20% 300px 40%;
+}
+
+/
